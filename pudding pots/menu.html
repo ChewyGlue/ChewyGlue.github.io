@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+       
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pudding Pots Menu</title>
+        <meta name="description" content="Explore our delectable pudding menu">
+        <link rel="stylesheet" href="styles/styles.css">
+        
+    </head>
+
+    <body>
+
+        <header class="navigation-bar" role="navigation">
+            <nav class="grid-1"> 
+
+                <ul class="main-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="MENU.html">MENU</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">REACH US</a></li>
+                </ul>
+            
+            </nav>
+        </header>
+
+        <main>
+
+            <section>
+
+                <div class="grid-5">
+                    <h1 class="page-headers">Our Menu</h1>
+                </div>
+
+                <div class="pudding-options">
+
+                    <div class="grid-6">
+                        <div class="jump-button" role="button">
+                                
+                            <a href="#pudding-order" class="scroll-btn">ORDER NOW >></a>
+
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="grid-4">
+                            
+                            <article class="menu-1">
+                                    <img src="images/cherry.png" alt="vanilla pudding with fresh cherries and chopped almonds">
+                                    <h1 class="body-1">CHERRY CRUNCH $6</h1>
+                                    <h2 class="body-2">vanilla pudding, cherries, almonds</h2>
+                            </article>
+
+                            <article class="menu-2"> 
+                                    <img src="images/strawberry-choc.png" alt="chocolate pudding with fresh sliced strawberries and a dollop of whipped cream on top">
+                                    <h1 class="body-1">STRAWBERRY CHOC $5</h1>
+                                    <h2 class="body-2">chocolate pudding, whipped cream, strawberries</h2>
+                            </article>
+
+                            <article class="menu-3">
+                                    <img src="images/lemon.png" alt="lemon pudding with fresh raspberries and a raspberry syrup drizzle on top">
+                                    <h1 class="body-1">LEMON RASPBERRY $5</h1>
+                                    <h2 class="body-2">lemon pudding, raspberries, raspberry syrup</h2>
+                            </article>
+
+                            <article class="menu-4">
+                                    <img src="images/pistachio.png" alt="vanilla pudding with pistachios and sliced fresh peaches on top">
+                                    <h1 class="body-1">PISTACHIO VANILLA $7</h1>
+                                    <h2 class="body-2">vanilla pudding, pistachio nuts, peaches</h2>
+                            </article>
+
+                            <article class="menu-5">
+                                    <img src="images/banana.png" alt="banana pudding with fresh banana slices, graham cracker dust, and whipped cream on top">
+                                    <h1 class="body-1">BANANA CREAM PIE $6</h1>
+                                    <h2 class="body-2">banana pudding, bananas, whipped cream, graham cracker dust</h2>
+                            </article>
+
+                            <article class="menu-6">
+                                    <img src="images/coconut.png" alt="coconut pudding with diced fresh mango, coconut shreds, and kiwi slices on top">
+                                    <h1 class="body-1">COCONUT CLASH $7</h1>
+                                    <h2 class="body-2">coconut pudding, mango, kiwi, coconut shreds</h2>
+                            </article>
+
+                            <article class="menu-7">
+                                    <img src="images/caramel.png" alt="caramel pudding with diced apples throughout, and sliced apples on top">
+                                    <h1 class="body-1">APPLE CARAMEL $5</h1>
+                                    <h2 class="body-2">caramel pudding, green apples, red apples</h2>
+                            </article>
+
+                            <article class="menu-8">
+                                    <img src="images/cranberry.png" alt="white chocolate pudding with dried cranberries, and a couple of mint leaves on top">
+                                    <h1 class="body-1">WHITE CHOC CRANBERRY $7</h1>
+                                    <h2 class="body-2">white chocolate pudding, tart cranberries, mint leaves</h2>
+                            </article>
+
+                            <article class="menu-9">
+                                <img src="images/butterscotch.png" alt="butterscotch pudding with fresh blackberries and blueberries">
+                                <h1 class="body-1">BUTTERSCOTCH BERRY $5</h1>
+                                <h2 class="body-2">butterscotch pudding, blackberries, blueberries</h2>
+                            </article>
+
+                        
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+            <section class="order-form-section grid-container">
+
+                <div class="grid-3">
+                    <h2 class="section-headers">Order online for fast pickup!</h2>
+                </div>
+
+                <div class="grid-4" id="pudding-order">
+                    <form action="action_page.php" class="online-order-form">
+                        
+                        <div class="inner-grid">
+
+                            <div class="order-puddings">
+                                
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                        <label for="cherry-pudding" class="body-1">1. Cherry Crunch</label>
+                                        <input type="checkbox" id="cherry-pudding" name="pudding-type" value="cherry-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                        <label for="cherry-quantity" class="body-1">~~~ Qty: </label>
+                                        <input type="number" id="cherry-quantity" name="cherry-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+                                
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                        <label for="strawberry-pudding" class="body-1">2. Strawberry Choc</label>
+                                        <input type="checkbox" id="strawberry-pudding" name="pudding-type" value="strawberry-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                        <label for="strawberry-quantity" class="body-1">~~~ Qty: </label>
+                                        <input type="number" id="strawberry-quantity" name="strawberry-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+                                    
+                                    <div role="checkbox">
+                                        <label for="raspberry-pudding" class="body-1">3. Raspberry & Lemon</label>
+                                        <input type="checkbox" id="raspberry-pudding" name="pudding-type" value="raspberry-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                        <label for="raspberry-quantity" class="body-1">~~~ Qty: </label>
+                                        <input type="number" id="raspberry-quantity" name="raspberry-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                        <label for="pistachio-pudding" class="body-1">4. Pistachio Vanilla</label>
+                                        <input type="checkbox" id="pistachio-pudding" name="pudding-type" value="pistachio-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="pistachio-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="pistachio-quantity" name="pistachio-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                    <label for="banana-pudding" class="body-1"></span>5. Banana Cream Pie</label>
+                                    <input type="checkbox" id="banana-pudding" name="pudding-type" value="banana-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="banana-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="banana-quantity" name="banana-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                    <label for="coconut-pudding" class="body-1">6. Coconut Clash</label>
+                                    <input type="checkbox" id="coconut-pudding" name="pudding-type" value="coconut-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="coconut-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="coconut-quantity" name="coconut-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                    <label for="apple-pudding" class="body-1">7. Caramel Apple</label>
+                                    <input type="checkbox" id="apple-pudding" name="pudding-type" value="apple-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="apple-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="apple-quantity" name="apple-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                    <label for="pumpkin-pudding" class="body-1">8. White Choc Cranberry</label>
+                                    <input type="checkbox" id="pumpkin-pudding" name="pudding-type" value="pumpkin-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="pumpkin-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="pumpkin-quantity" name="pumpkin-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+
+                                <div class="inner-row">
+
+                                    <div role="checkbox">
+                                    <label for="butterscotch-pudding" class="body-1">9. Butterscotch Berry</label>
+                                    <input type="checkbox" id="butterscotch-pudding" name="pudding-type" value="butterscotch-pudding">
+                                    </div>
+
+                                    <div class="inner-row">
+                                    <label for="butterscotch-quantity" class="body-1">~~~ Qty: </label>
+                                    <input type="number" id="butterscotch-quantity" name="butterscotch-quantity" min="0" max="5">
+                                    </div>
+
+                                </div>
+      
+                                
+                            </div>
+
+                            <div class="customer-details">
+                                
+                                <div class="inner-column-2">
+                                    <label for="fname-order" class="body-1">~~~ First Name: </label>
+                                    <input type="text" id="fname-order" name="firstname" placeholder="Your first name.." required>
+                                </div>
+
+                                <div class="inner-column-2">
+                                    <label for="lname-order" class="body-1">~~~ Last Name: </label>
+                                    <input type="text" id="lname-order" name="lastname" placeholder="Your last name.." required>
+                                </div>
+                                
+                                <div class="inner-column-2">
+                                    <label for="phone-number" class="body-1">~~~ Phone Number: </label>
+                                    <input type="tel" id="phone-number" name="phone-number" placeholder=" (___) - ___ - ___ ">
+                                </div>
+
+                                <div class="inner-column-2">
+                                    <label for="email-order" class="body-1">~~~ Email: </label>
+                                    <input type="email" id="email-order" name="customer-email" placeholder="Your email here.." required>
+                                </div>
+                                
+                                <div class="inner-column">
+
+                                    <div class="body-1">~~~ Payment Method:</div>
+                                
+                                    <div class="inner-row ">
+                                        <label for="pickup-pay" class="body-1">Pay at Pickup</label>
+                                        <input type="radio" id="pickup-pay" name="payment-method" value="pickup-pay" required>
+                                    </div>
+
+                                    <div class="inner-row ">
+                                        <label for="card" class="body-1">Credit/Debit Card</label>
+                                        <input type="radio" id="card" name="payment-method" value="card" required>
+                                    </div>
+                                    
+                                    <div class="inner-row ">
+                                        <label for="apple-pay" class="body-1">Apple Pay</label>
+                                        <input type="radio" id="apple-pay" name="payment-method" value="apple-pay" required>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="special-req">
+                                    <label for="special-requests" class="body-1">~~~ Special Requests: </label>
+                                    <textarea id="special-requests" name="special-requests" placeholder="Allergies, substitutions, or other special requests..."></textarea>
+                                </div>
+
+                                
+                                
+                            </div>
+
+                            <div class="submit-button">
+                                <button type="submit" role="button">SUBMIT ORDER</button>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </section>
+        
+
+        </main>
+        
+        <footer>
+            <div class="grid-8">
+                <div class="footer"></div>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>
