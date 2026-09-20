@@ -45,6 +45,10 @@ a:visited {
     color:var(--brown)
 }
 
+a.submit-button:visited{
+    color:var(--cream-light)
+}
+
 a:link {
   color: var(--brown); 
 }
