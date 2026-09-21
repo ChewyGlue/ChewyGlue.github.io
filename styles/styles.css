@@ -41,17 +41,7 @@ fieldset {
     
 }
 
-a:visited {
-    color:var(--brown)
-}
 
-a.submit-button:visited{
-    color:var(--cream-light)
-}
-
-a:link {
-  color: var(--brown); 
-}
 
 a {
 
@@ -91,14 +81,8 @@ input[type="submit"], button, .send-button, a {
 
 
 
-
-button:hover {
-
-    background-color: var(--cream-light);
-    color: var(--brown);
-
     
-}
+
 select, input[type="text"], input[type="email"], input[type="tel"]  {
     
     text-align: center;
@@ -173,16 +157,21 @@ textarea::placeholder {
     color: var(--brown);
 }
 
+a:visited {
+    color:var(--brown)
+}
+
+
+
+a:link {
+  color: var(--brown); 
+}
 
 .main-nav a {
     background-color: var(--pink-light);
     border-color: var(--pink)
 }
 
-.main-nav a:hover {
-  color: var(--brown);
-  background-color: var(--cream-light); 
-}
 
 .menu-button a, .jump-button a {
     background-color: var(--pink-light);
@@ -190,26 +179,78 @@ textarea::placeholder {
 
 }
 
-.location a, .reviews a, .location-2 a {
+
+.location a, .reviews a, .location-2 a, .reviews-2 a {
     width: fit-content;
     background-color: var(--cream-light);
     align-self: center;
 }
 
+
+
+
+a.submit-button-2:link {
+    background-color: var(--cream-light);
+    color: var(--brown);
+
+}
+
+a.submit-button:link {
+    color: var(--cream-light)
+}
+
+a.submit-button:visited{
+    color:var(--cream-light)
+}
+
+a.submit-button-2:visited {
+    color: var(--cream-light);
+    background-color: var(--brown)
+}
+
+
+
+button:hover {
+
+    background-color: var(--cream-light);
+    color: var(--brown);
+}
+
 .menu-button a:hover, .jump-button a:hover, a:hover {
-  color: var(--brown);
   background-color: var(--brown);
   color: var(--cream-light);
   border-color: var(--pink)
   
 }
 
+a.submit-button:hover {
+    background-color: var(--cream-light);
+    color: var(--brown)
+}
+
+a.submit-button-2:hover {
+    background-color: var(--brown);
+    color: var(--cream-light)
+}
+
+
+
+
+
+.main-nav a:hover {
+  color: var(--brown);
+  background-color: var(--cream-light); 
+}
+
+
+
 .submit-button {
     grid-column: 2/4;
-    grid-row: 3;
     align-self: center;
-    justify-self: center;
+
 }
+
+
 
 ul {
     list-style-type: none;
@@ -617,7 +658,7 @@ INDEX.HTML PAGE
             
 }
 
-.location, .location-2, .hours, .hours-2, .hours-3, .reviews, .contact-info, .contact-form, .about-card, .online-order-form {
+.location, .location-2, .hours, .hours-2, .hours-3, .reviews, .reviews-2, .contact-info, .contact-form, .about-card, .online-order-form, .order-submission {
     padding-block: 1.5rem;
     padding-inline: 1rem;
 
@@ -707,7 +748,6 @@ MENU.HTML
     text-align: center;
     padding-block: 0.75rem;
     padding-inline: 0.5rem;
-    justify-content: center;
     
 }
 
@@ -816,17 +856,11 @@ MENU.HTML
     flex-direction: column;
     grid-row: 1/3;
     grid-column: 3/5;
-    justify-content: space-evenly;
     padding-left: 1rem;
-    gap: 0.5rem
-    
-    
-    
-    
+    gap: 0.5rem;
+    justify-self: center;
+   
 }
-
-
-
 
 
 .order-details {
@@ -881,8 +915,7 @@ MENU.HTML
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+    align-content: space-between;
 }
 
 
@@ -895,11 +928,10 @@ MENU.HTML
     background-color: var(--brown);
     border-style: solid;
     border-width: 0.5rem;
-    border-color: #F5A6C1;
     border-radius: 16px;
     display: flex;
-    line-height: 1.6;
-    color:#FFFCC2
+    border-color: var(--pink-light);
+    color: var(--cream-light);
 
 }
     
@@ -949,17 +981,21 @@ MENU.HTML
 .order-submission {
     grid-column: 2/8;
     grid-row: 1/3;
-    background-color: var(--pink-light);
+    background-color: var(--brown);
     border-style: solid;
     border-width: 0.5rem;
-    border-color: var(--pink);
+    border-color: var(--pink-light);
+    color: var(--cream-light);
+    border-radius: 16px;
     border-radius: 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 
 }
+
 
 .submit-page {
     
@@ -981,6 +1017,24 @@ MENU.HTML
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
+
+}
+
+.reviews-2 {
+
+    grid-column: 2/8;
+    grid-row: 3/5;
+    background-color:var(--pink-light);
+    border-radius: 16px;
+    border-color:var(--pink);
+    border-style: solid;
+    border-width: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
 
 }
 
@@ -1268,8 +1322,7 @@ MENU.HTML
     .submit-button {
         grid-row: 12;
         grid-column: 1;
-        align-self: center;
-        justify-self: center;
+    
     }
 
     .inner-row {
@@ -1318,8 +1371,6 @@ MENU.HTML
 
    
 
-    
-
    textarea {
     padding-inline: 0.5rem;
    }
@@ -1333,4 +1384,33 @@ MENU.HTML
         grid-auto-rows: minmax(88px, auto);
 
    }
+
+   /*for submit and submit_2 pages */
+   .order-submission {
+    grid-column: 1;
+    grid-row: 1/3;
+   }
+
+   .reviews-2 {
+    grid-column: 1;
+    grid-row: 3/6
+   }
+
+   .hours-3 {
+    grid-column:1;
+    grid-row: 6/10
+   }
+
+   .location-2 {
+    grid-column: 1;
+    grid-row: 3/6;
+   }
+
+   .submit-page .hours-3 {
+    grid-column:1;
+    grid-row: 6/10
+   }
+
+
+
 }
