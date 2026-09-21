@@ -617,7 +617,7 @@ INDEX.HTML PAGE
             
 }
 
-.location, .location-2, .hours, .hours-2, .reviews, .contact-info, .contact-form, .about-card, .online-order-form {
+.location, .location-2, .hours, .hours-2, .hours-3 .reviews, .contact-info, .contact-form, .about-card, .online-order-form {
     padding-block: 1.5rem;
     padding-inline: 1rem;
 
@@ -971,7 +971,7 @@ MENU.HTML
 
 .location-2 {
     grid-column: 2/8;
-    grid-row: 3/4;
+    grid-row: 3/5;
     background-color:var(--pink-light);
     border-radius: 16px;
     border-color:var(--pink);
@@ -982,6 +982,11 @@ MENU.HTML
     text-align: center;
     justify-content: space-around;
 
+}
+
+.hours-3 {
+    grid-column: 8/11;
+    grid-row: 1/5;
 }
 
 
@@ -999,10 +1004,6 @@ MENU.HTML
     
 }
 
-.hours-3 {
-    grid-column: 8/11;
-    grid-row: 1/4;
-}
 
 
 
