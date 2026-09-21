@@ -617,7 +617,7 @@ INDEX.HTML PAGE
             
 }
 
-.location, .location-2 .hours, .hours-2, .reviews, .contact-info, .contact-form, .about-card, .online-order-form {
+.location, .location-2, .hours, .hours-2, .reviews, .contact-info, .contact-form, .about-card, .online-order-form {
     padding-block: 1.5rem;
     padding-inline: 1rem;
 
