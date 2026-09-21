@@ -570,7 +570,7 @@ INDEX.HTML PAGE
 }
 
 
-.hours, .hours-2 {
+.hours, .hours-2, .hours-3 {
         background-color: var(--pink-light);
         border-style: solid;
         border-width: 0.5rem;
@@ -590,7 +590,7 @@ INDEX.HTML PAGE
 
 }
 
-.hours ul, .hours-2 ul {
+.hours ul, .hours-2 ul, .hours-3 ul {
     
     display: flex;
     flex-direction: column;
@@ -684,13 +684,7 @@ MENU.HTML
     padding-bottom: 2rem;
 }
 
-.submit-page {
-    
-    border-bottom-style: solid;
-    border-bottom-width: 2rem;
-    border-bottom-color: var(--pink);
-    padding-block: 2rem;
-}
+
 
 .jump-button {
     grid-row: 1;
@@ -967,6 +961,14 @@ MENU.HTML
 
 }
 
+.submit-page {
+    
+    border-bottom-style: solid;
+    border-bottom-width: 2rem;
+    border-bottom-color: var(--pink);
+    padding-block: 2rem;
+}
+
 .location-2 {
     grid-column: 2/8;
     grid-row: 2/4;
@@ -981,6 +983,8 @@ MENU.HTML
     justify-content: space-around;
 
 }
+
+
 
 .contact-info p {
     word-break: break-word;
